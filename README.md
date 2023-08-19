@@ -1,6 +1,7 @@
 # XYZPreset_for_SDWebUI
 ![image](https://github.com/YQBen/XYZPreset_for_SDWebUI/assets/17914188/aa7d32ce-1f06-4466-995c-383513ab25b8)
-🚀 **XYZpreset** 专门用来储存和切换xyzplot脚本预设的轻量级浏览器插件，注意目前还不是webui插件，是个chrome浏览器插件。
+🚀 **XYZpreset** 专门用来储存和切换xyzplot脚本预设的轻量级浏览器插件，可以轻松保存当前预设，和一键切换到已经储存的预设。而且支持所有预设的导出和导入。
+注意目前还不是webui插件，是个chrome浏览器插件。
 
 ## 背景
 
