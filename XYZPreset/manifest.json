@@ -1,0 +1,33 @@
+{
+    "manifest_version":3,
+    "name":"XYZPreset 1.0 by AIL/知筑社",
+    "version":"1.0",
+    "description": "A helper on SD WebUI XYZ plot preset.",
+    "icons":{
+        "128":"img/logo.png",
+        "48":"img/logo.png",
+        "16":"img/logo.png"
+    },
+    "action":{
+        "default_icon":"img/logo.png",
+        "default_popup":"popup.html"
+    },
+    "background":{
+        "service_worker":"background.js",
+        "type": "module"
+    },
+    "permissions":[   
+        "storage",
+        "tabs",
+        "cookies"
+    ],
+    "options_page":"options.html",
+    "host_permissions": ["*://*/*"],
+    "content_scripts":[
+        {
+            "matches":["<all_urls>"],
+            "js":["js/content_script.js","js/options.js"],
+            "run_at":"document_end"
+        }
+    ]
+}
